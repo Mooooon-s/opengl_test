@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opengl_test", "opengl_test\opengl_test.vcxproj", "{DD341D9E-A529-42F0-8280-47A2C9325637}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Debug|x64.ActiveCfg = Debug|x64
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Debug|x64.Build.0 = Debug|x64
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Debug|x86.Build.0 = Debug|Win32
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Release|x64.ActiveCfg = Release|x64
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Release|x64.Build.0 = Release|x64
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Release|x86.ActiveCfg = Release|Win32
+		{DD341D9E-A529-42F0-8280-47A2C9325637}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA0DC93-A23E-4F9E-ADBC-0C845871B61A}
+	EndGlobalSection
+EndGlobal
