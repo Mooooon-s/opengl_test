@@ -3,6 +3,13 @@
 
 #include <iostream>
 
+float Vertices[] = {
+    -0.5f,-0.5f,0.0f,
+    0.5f,-0.5f,0.0f,
+    0.0f,0.5f,0.0f
+};
+
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
@@ -27,7 +34,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "M's Coding", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
